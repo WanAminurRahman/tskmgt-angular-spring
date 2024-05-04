@@ -1,0 +1,17 @@
+<p class="h6">Add New Task</p>
+<div class="card mb-3">
+    <div class="card-body">
+        <form [formGroup]="addTaskForm" (ngSubmit)="addNewTask()">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" placeholder="Title goes here" formControlName="title">
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" rows="3" formControlName="description"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<hr>

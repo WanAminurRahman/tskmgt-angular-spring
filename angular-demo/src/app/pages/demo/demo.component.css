@@ -1,0 +1,19 @@
+.add-button {
+    cursor: pointer; 
+    color: seagreen;
+    transition: 0.3s;
+}
+
+.add-button:hover {
+    color: rgb(28, 105, 62);
+}
+
+.cancel-button {
+    cursor: pointer; 
+    color: rgb(204, 45, 45);
+    transition: 0.3s;
+}
+
+.cancel-button:hover {
+    color: rgb(119, 34, 34);
+}
